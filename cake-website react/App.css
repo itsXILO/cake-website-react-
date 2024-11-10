@@ -1,0 +1,32 @@
+/* App.css */
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #f8b400;
+    padding: 20px;
+    color: white;
+  }
+  
+  .cake-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .cake-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: left;
+  }
+  
+  .cake-item img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
